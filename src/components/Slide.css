@@ -1,0 +1,98 @@
+.mainDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.optionPart {
+  height: 120px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.optionButton {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border: 0;
+  background: none;
+  transition: 0.2s;
+}
+.optionButton:hover {
+  background-color: #ffc0fa;
+  cursor: pointer;
+}
+.optionList {
+  display: flex;
+  position: absolute;
+  top: 78px;
+  height: 34px;
+  border: 1px black solid;
+  opacity: 0;
+  transition: 0.2s;
+  pointer-events: none;
+}
+.optionList2 {
+  display: flex;
+  position: absolute;
+  top: 78px;
+  height: 34px;
+  border: 1px black solid;
+  opacity: 1;
+  transition: 0.2s;
+  pointer-events: all;
+}
+.optionListButton {
+  display: flex;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  height: 34px;
+  transition: 0.3s;
+}
+.optionListButton:hover {
+  background-color: #ffc0fa;
+  cursor: pointer;
+}
+.slidePart {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+.buttonPart {
+  margin-top: 30px;
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+.slideButton1 {
+  border-radius: 5px;
+  border: 0;
+  height: 30px;
+  font-weight: 600;
+  background-color: #ffc0fa;
+  transition: 0.2s;
+}
+.disabledButton {
+  border-radius: 5px;
+  border: 0;
+  height: 30px;
+  font-weight: 600;
+  background-color: #ffc0fa;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.slideButton2 {
+  position: absolute;
+  right: 0px;
+  border-radius: 5px;
+  border: 0;
+  height: 30px;
+  font-weight: 600;
+  background-color: #ffc0fa;
+  transition: 0.2s;
+}
+.slideButton1:hover,
+.slideButton2:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

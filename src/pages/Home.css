@@ -1,0 +1,7 @@
+.mainCourse {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+}
